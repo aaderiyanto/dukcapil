@@ -53,18 +53,18 @@
                 </li>
                 <?php if ($_COOKIE['role'] == "admin") { ?>
                     <li class="nav-item">
-                        <a href="<?= base_url() ?>users" class="nav-link">
-                            <i class="nav-icon fas fa-users"></i>
-                            <p>
-                                Users
-                            </p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
                         <a href="<?= base_url() ?>penduduk" class="nav-link">
                             <i class="nav-icon fas fa-users"></i>
                             <p>
                                 Penduduk
+                            </p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="<?= base_url() ?>users" class="nav-link">
+                            <i class="nav-icon fas fa-users"></i>
+                            <p>
+                                Users
                             </p>
                         </a>
                     </li>
