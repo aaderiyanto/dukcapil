@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Feb 08, 2025 at 08:52 AM
+-- Generation Time: Feb 08, 2025 at 09:00 AM
 -- Server version: 5.7.39
 -- PHP Version: 5.6.40
 
@@ -90,7 +90,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `username`, `email`, `password`, `role`, `created_at`, `updated_at`, `deleted_at`) VALUES
-(3, 'Ade Riyanto', 'ade', 'aderiyanto.ay@gmail.com', '2d4c883c04b7ff495309f7bc7275e82454889636', 'admin', '2025-01-07 02:35:43', '2025-01-07 02:42:57', NULL);
+(3, 'Ade Riyanto', 'ade', 'aderiyanto.ay@gmail.com', '5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8', 'admin', '2025-01-07 02:35:43', '2025-01-07 02:42:57', NULL);
 
 --
 -- Indexes for dumped tables

@@ -48,8 +48,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <div class="col-6">
                             <button id="login" class="btn btn-primary btn-block">Sign In</button>
                         </div>
-                        <div class="col-6"><a href="welcome/register" class="btn btn-warning btn-block">Tidak Punya Akun?</a>
-                        </div>
+                        <!-- <div class="col-6"><a href="welcome/register" class="btn btn-warning btn-block">Tidak Punya Akun?</a> -->
+                        <!-- </div> -->
                     </div>
                 </form>
 
